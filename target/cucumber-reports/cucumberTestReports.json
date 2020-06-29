@@ -1,0 +1,132 @@
+[
+  {
+    "line": 2,
+    "elements": [
+      {
+        "start_timestamp": "2020-06-28T21:27:41.055Z",
+        "before": [
+          {
+            "result": {
+              "duration": 2110533665,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.beforeScenario()"
+            }
+          }
+        ],
+        "line": 4,
+        "name": "Verify Account List Button",
+        "description": "",
+        "id": "home-page-test;verify-account-list-button",
+        "after": [
+          {
+            "result": {
+              "duration": 496141657,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.afterScenario()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 825296901,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "User opens Home home page",
+            "match": {
+              "location": "HomePage_STEPS.user_opens_Home_home_page()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 5440928,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "Verify Page Title",
+            "match": {
+              "location": "HomePage_STEPS.verify_Page_Title()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 779015650,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "User navigate to Account List Button",
+            "match": {
+              "location": "HomePage_STEPS.user_navigate_to_Account_List_Button()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 2081213059,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "Open Your Orders Page",
+            "match": {
+              "location": "HomePage_STEPS.open_Your_Orders_Page()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 6059595940,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "Verifies order page title",
+            "match": {
+              "location": "HomePage_STEPS.verifies_order_page_title()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@HomePage"
+          },
+          {
+            "name": "@HomePage"
+          },
+          {
+            "name": "@smoke"
+          },
+          {
+            "name": "@regression"
+          },
+          {
+            "name": "@HomePageTest"
+          }
+        ]
+      }
+    ],
+    "name": "Home Page test",
+    "description": "",
+    "id": "home-page-test",
+    "keyword": "Feature",
+    "uri": "file:src/test/resources/features/homePage.feature",
+    "tags": [
+      {
+        "name": "@HomePage",
+        "type": "Tag",
+        "location": {
+          "line": 1,
+          "column": 1
+        }
+      }
+    ]
+  }
+]
